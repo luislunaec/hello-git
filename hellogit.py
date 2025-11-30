@@ -8,11 +8,16 @@ B=int(input("Cual es su segundo numero?"))
 suma=A+B
 print(suma)
 
-R= input("Quieres que se multipliquen los mismos datos? ")
+M= input("Quieres que se multipliquen los mismos datos? ")
 
-if R.lower() == "si":
+if M.lower() == "si":
     print("La multiplicacion es: ",A*B)
 else:
     print("No se realizara la multiplicacion")
 
 
+D=input("Usted desea que se dividan los dos digitos ? ")
+if D.lower() == "si":
+    print("El resultado de la division es: ",A/B)
+else:
+    print("No existe division")
